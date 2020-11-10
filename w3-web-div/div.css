@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: snow; */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+#container {
+  border-style: solid;
+  border-color: slateblue;
+  height: 100vh;
+  width: 80%;
+  margin: 20px auto;
+  /* background-color: blueviolet; */
+}
+
+#header {
+  background-color: black;
+  text-align: center;
+}
+
+#header h1 {
+  color: white;
+}
+
+#header ul {
+  display: flex;
+}
+
+#header li {
+  list-style-type: none;
+  margin: 10px;
+  margin-bottom: 10px;
+  background-color: gray;
+  color: white;
+}
+
+#header a {
+  color: white;
+}
+
+#body {
+  display: flex;
+}
+
+aside {
+  width: 20%;
+  height: 80vh;
+  background-color: rgba(38, 0, 255, 250);
+}
+
+#section {
+  height: 80vh;
+  width: 60%;
+  background-color: rgba(91, 54, 192, 10);
+}
+
+#footer {
+  background-color: gray;
+  height: 9vh;
+}
+
+aside li {
+  list-style-type: none;
+  text-align: center;
+  margin: 20px;
+}
+
+aside li a {
+  background-color: cyan;
+  padding: 5px;
+}
+
+aside li a:hover {
+  background-color: darkcyan;
+}
+
+.video-responsive {
+  margin: 10px;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#newdive {
+  background-color: indigo;
+  width: 20%;
+}

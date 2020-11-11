@@ -23,7 +23,7 @@ body{
     background: white;
     opacity: 0.8;
     max-width: 1000px;
-    height: 90vh;
+    height: 900px;
     margin: auto;
     margin-top: 1%;
     border: 1px dotted;
@@ -39,7 +39,7 @@ body{
 }
 
 .MsoNormalTable{
-    margin: auto;
+	margin: auto;
     /* margin-right: 100px; */
     /* background: white; */
 }

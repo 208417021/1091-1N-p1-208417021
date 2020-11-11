@@ -1,0 +1,24 @@
+*{
+    background: rgb(34,193,195);
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(45,253,121,1) 100%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.class-title{
+    width: fit-content;
+    padding-left: 45%;
+    padding-top: 20px;
+    opacity: 0;
+    color: lightskyblue;
+}
+
+.container{
+    max-width: 1000px;
+    height: 90vh;
+    margin: auto;
+    margin-top: 1%;
+    border: 1px dotted;
+    border-radius: 10px;
+}
